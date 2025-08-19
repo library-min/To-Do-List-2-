@@ -1,8 +1,8 @@
 # 🚀 Smart Todo Dashboard
 
-# To-Do-List
+# 🚀 라이브 데모
 
-🚀 라이브 데모: [여기에서 확인하세요](https://library-min.github.io/To-Do-List_2/)
+[🚀 라이브 데모](https://library-min.github.io/To-Do-List_2/)
 
 ## ✨ 주요 기능
 
