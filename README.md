@@ -111,23 +111,6 @@ src/
 - `Escape`: 편집 모드 취소
 - `Shift + Enter`: 입력 필드에서 줄바꿈
 
-### 데이터 포맷
-모든 할 일 데이터는 다음 구조로 저장됩니다:
-
-```javascript
-{
-  id: timestamp,
-  text: "할 일 내용",
-  completed: false,
-  category: "카테고리",
-  priority: "medium", // high, medium, low
-  createdAt: "ISO 날짜",
-  dueDate: "YYYY-MM-DD",
-  notes: "메모 내용",
-  completedAt: "완료 시간"
-}
-```
-
 ## 📱 반응형 지원
 
 - **모바일** (< 640px): 단일 컬럼 레이아웃
