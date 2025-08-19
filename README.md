@@ -1,13 +1,5 @@
 # 🚀 Task Manager
 
-<br>
-
-## 🚀 라이브 데모
-
-<a href="https://library-min.github.io/To-Do-List_2/" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">
-  🚀 데모 바로가기
-</a>
-
 ---
 
 ## 📸 미리보기
@@ -87,3 +79,9 @@ src/
 
 - **색상 테마**: 다크/라이트 모드와 다양한 색상 팔레트를 지원합니다.
 - **반응형 디자인**: 모바일, 태블릿, 데스크톱 등 모든 기기에서 최적화된 화면을 제공합니다.
+
+---
+
+<a href="https://library-min.github.io/To-Do-List_2/" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">
+  🚀 데모 바로가기
+</a>
