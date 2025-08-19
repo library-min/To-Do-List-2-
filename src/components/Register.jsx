@@ -75,7 +75,7 @@ const Register = ({ onRegister }) => {
       onRegister(newUser);
       showSuccess('축하합니다! 회원가입이 완료되었습니다!');
       setTimeout(() => navigate('/'), 1000);
-    } catch (error) {
+    } catch {
       setErrors({ general: '회원가입 중 오류가 발생했습니다' });
       showError('회원가입 중 오류가 발생했습니다');
     } finally {
