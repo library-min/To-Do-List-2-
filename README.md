@@ -1,6 +1,6 @@
 # 🚀 Smart Todo Dashboard
 
-<a href="https://library-min.github.io/To-Do-List" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">
+<a href="[https://library-min.github.io/To-Do-List_2/]" target="_blank" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #28a745; border-radius: 5px; text-decoration: none;">
   🚀 라이브 데모 보러가기
 </a>
 
