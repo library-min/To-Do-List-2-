@@ -3,10 +3,9 @@
 ## 📸 스크린샷
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x500/6366f1/ffffff?text=Smart+Todo+Main+Interface" alt="메인 화면" width="49%">
-  <img src="https://via.placeholder.com/800x500/10b981/ffffff?text=Statistics+Dashboard" alt="통계 대시보드" width="49%">
-  <img src="https://via.placeholder.com/800x500/f59e0b/ffffff?text=User+Authentication" alt="사용자 인증" width="49%">
-  <img src="https://via.placeholder.com/800x500/ef4444/ffffff?text=Dark+Mode" alt="다크 모드" width="49%">
+  <img src="" alt="메인 화면" width="95%">
+  <img src="" alt="사용자 인증" width="95%">
+  <img src="" alt="다크 모드" width="50%">
 </div>
 
 ## ✨ 주요 기능
