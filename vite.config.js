@@ -8,7 +8,7 @@ export default defineConfig({
     css: {
         postcss: './postcss.config.cjs',
     },
-    base: './', // 깃허브 페이지 배포를 위해 추가
+    base: '/tailwind-todos/', // GitHub Pages repository name
     build: {
         outDir: 'docs' // 💡 빌드 폴더 이름을 'build'로 설정
     }
