@@ -1,7 +1,5 @@
 # 🚀 Task Manager
 
-# 🚀 Live Demo
-
 [🚀 Live Demo](https://library-min.github.io/To-Do-List_2/)
 
 ## ✨ 주요 기능
