@@ -11,14 +11,6 @@ import CategoryManager from "./components/CategoryManager";
 import BulkActions from "./components/BulkActions";
 import { Routes, Route } from 'react-router-dom';
 
-function HomePage() {
-  return <h1>홈 페이지입니다.</h1>;
-}
-
-function SignupPage() {
-  return <h1>회원가입 페이지입니다.</h1>;
-}
-
 export default function App() {
   const { mode } = useTheme();
   const [todos, setTodos] = useState(() => JSON.parse(localStorage.getItem("todos") || "[]"));
