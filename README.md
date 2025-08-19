@@ -64,26 +64,6 @@
 - **JavaScript (ES6+)**: 현대적인 자바스크립트 문법
 - **LocalStorage API**: 클라이언트 사이드 데이터 저장
 
-## 🚀 시작하기
-
-### 설치
-
-```bash
-# 의존성 설치
-npm install
-
-# 개발 서버 시작
-npm run dev
-
-# 프로덕션 빌드
-npm run build
-```
-
-### 개발 환경 요구사항
-
-- Node.js 16.0 이상
-- npm 또는 yarn
-
 ## 📁 프로젝트 구조
 
 ```
@@ -124,38 +104,8 @@ src/
 - 기본 카테고리: 개인, 업무, 쇼핑, 건강
 - 사용자 정의 카테고리 추가 가능
 
-## 🔧 고급 기능
-
-### 키보드 단축키
-- `Enter`: 할 일 추가/편집 완료
-- `Escape`: 편집 모드 취소
-- `Shift + Enter`: 입력 필드에서 줄바꿈
-
-### 데이터 포맷
-모든 할 일 데이터는 다음 구조로 저장됩니다:
-
-```javascript
-{
-  id: timestamp,
-  text: "할 일 내용",
-  completed: false,
-  category: "카테고리",
-  priority: "medium", // high, medium, low
-  createdAt: "ISO 날짜",
-  dueDate: "YYYY-MM-DD",
-  notes: "메모 내용",
-  completedAt: "완료 시간"
-}
-```
-
 ## 📱 반응형 지원
 
 - **모바일** (< 640px): 단일 컬럼 레이아웃
 - **태블릿** (640px - 1024px): 2컬럼 레이아웃
 - **데스크톱** (> 1024px): 풀 레이아웃 (5개 통계 카드, 4컬럼 그리드)
-
----
-
-**만든이**: Claude Code  
-**버전**: 1.0.0  
-**라이선스**: MIT
