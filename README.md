@@ -1,4 +1,4 @@
-# 📋 Smart Todo
+# 📋 Task Manager
 
 ## 📸 스크린샷
 
@@ -243,6 +243,6 @@ src/
 </tr>
 </table>
 
-**Made with ❤️ by [개발자](https://github.com/yourusername)**
+**Made with ❤️ by [서재민](https://github.com/yourusername)**
 
 </div>
