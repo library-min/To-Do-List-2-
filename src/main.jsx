@@ -1,29 +1,14 @@
-// Before
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App.jsx';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom'; // 💡 이 부분을 변경
+
+import { HashRouter as Router } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <App />
-    </BrowserRouter>
-  </React.StrictMode>
-);
-
-// After
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
-import { HashRouter } from 'react-router-dom'; // 💡 HashRouter로 변경
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <HashRouter> // 💡 HashRouter로 변경
-      <App />
-    </HashRouter>
+    </Router>
   </React.StrictMode>
 );
