@@ -3,9 +3,18 @@
 ## 📸 스크린샷
 
 <div align="center">
-  <img src="" alt="메인 화면" width="95%">
-  <img src="" alt="사용자 인증" width="95%">
-  <img src="" alt="다크 모드" width="50%">
+
+**메인 화면 (라이트)**
+
+  <img src="public/To-Do List_2 Full Page (Light).png" alt="메인 화면" width="95%">
+
+**메인 화면 (다크)**
+  <img src="public/To-Do List_2 Full Page.png" alt="다크 모드" width="95%">
+  
+  **통계 대쉬 보드**
+  
+  <img src="public/To-Do List_2 Dash.png" alt="대쉬 보드" width="95%">
+  
 </div>
 
 ## ✨ 주요 기능
