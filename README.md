@@ -1,8 +1,8 @@
-# 🚀 Smart Todo Dashboard
+# 🚀 Task Manager
 
-# 🚀 라이브 데모
+# 🚀 Live Demo
 
-[🚀 라이브 데모](https://library-min.github.io/To-Do-List_2/)
+[🚀 Live Demo](https://library-min.github.io/To-Do-List_2/)
 
 ## ✨ 주요 기능
 
