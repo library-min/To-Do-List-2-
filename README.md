@@ -2,6 +2,10 @@
 
 현대적인 디자인과 고급 기능을 갖춘 React 기반 할 일 관리 애플리케이션입니다.
 
+# To-Do-List
+
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo-brightgreen)](https://library-min.github.io/To-Do-List)
+
 ## ✨ 주요 기능
 
 ### 📋 할 일 관리
