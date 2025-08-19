@@ -1,9 +1,5 @@
 # 🚀 Task Manager
 
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/) 
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-
 <br>
 
 ## 🚀 라이브 데모
@@ -47,11 +43,11 @@
 
 ## 🛠️ 기술 스택
 
-- **React 18**: 최신 React 버전으로 구축
-- **Tailwind CSS**: 유틸리티 퍼스트 CSS 프레임워크
-- **Vite**: 빠르고 효율적인 개발 환경
-- **JavaScript (ES6+)**: 현대적인 자바스크립트 문법
-- **LocalStorage API**: 클라이언트 측 데이터 저장
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/) 
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![LocalStorage](https://img.shields.io/badge/LocalStorage%20API-3269B9?style=for-the-badge&logo=WebAssembly&logoColor=white)]()
 
 ---
 
