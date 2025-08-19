@@ -1,4 +1,4 @@
-export default function StatsCard({ title, value, icon, suffix = "" }) {
+export default function StatsCard({ title, value, icon, color, delay, suffix = "" }) {
   return (
     <div className="rounded-2xl bg-card border border-app/20 p-6">
       <div className="flex items-center justify-between mb-4">

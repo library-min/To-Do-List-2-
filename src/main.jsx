@@ -1,23 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import "./index.css";
-import "./styles/animations.css";
-import App from "./App.jsx";
-import ThemeProvider from "./ThemeProvider.jsx";
-import { AuthProvider } from "./contexts/AuthContext.jsx";
-import { ToastProvider } from "./contexts/ToastContext.jsx";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+import { HashRouter as Router } from 'react-router-dom';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ToastProvider>
-        <AuthProvider>
-          <ThemeProvider>
-            <App />
-          </ThemeProvider>
-        </AuthProvider>
-      </ToastProvider>
-    </BrowserRouter>
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
