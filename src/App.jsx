@@ -9,6 +9,15 @@ import SearchBar from "./components/SearchBar";
 import StatsCard from "./components/StatsCard";
 import CategoryManager from "./components/CategoryManager";
 import BulkActions from "./components/BulkActions";
+import { Routes, Route } from 'react-router-dom';
+
+function HomePage() {
+  return <h1>홈 페이지입니다.</h1>;
+}
+
+function SignupPage() {
+  return <h1>회원가입 페이지입니다.</h1>;
+}
 
 export default function App() {
   const { mode } = useTheme();
@@ -173,13 +182,13 @@ export default function App() {
   }, [todos, filter, searchQuery, sortBy, selectedCategory]);
 
   return (
-    <div className="min-h-screen bg-app text-app transition-all duration-500 ease-in-out">
+    <div className="min-h-screen transition-all duration-500 ease-in-out bg-app text-app">
       {/* 상단 헤더 */}
-      <header className="sticky top-0 z-50 bg-app/90 backdrop-blur-md border-b border-app/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <header className="sticky top-0 z-50 border-b bg-app/90 backdrop-blur-md border-app/20">
+        <div className="px-4 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-app">
+              <h1 className="text-2xl font-bold tracking-tight sm:text-3xl lg:text-4xl text-app">
                 📋 Task Manager
               </h1>
             </div>
@@ -192,9 +201,9 @@ export default function App() {
       </header>
 
       {/* 메인 컨테이너 */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="px-4 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* 상단 통계 카드들 */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+        <div className="grid grid-cols-1 gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-5">
           <StatsCard 
             title="전체 할 일" 
             value={todos.length} 
@@ -224,9 +233,9 @@ export default function App() {
         </div>
 
         {/* 메인 콘텐츠 영역 */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           {/* 사이드바 */}
-          <div className="lg:col-span-1 space-y-6">
+          <div className="space-y-6 lg:col-span-1">
             <CategoryManager 
               categories={categories}
               selectedCategory={selectedCategory}
@@ -238,7 +247,7 @@ export default function App() {
           </div>
 
           {/* 메인 할 일 영역 */}
-          <div className="lg:col-span-3 space-y-6">
+          <div className="space-y-6 lg:col-span-3">
             {/* 할 일 입력 */}
             <div>
               <TodoInput 
