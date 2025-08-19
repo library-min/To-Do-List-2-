@@ -1,7 +1,5 @@
 # 🚀 Task Manager
 
----
-
 ## 📸 미리보기
 
 ![alt text](docs/Page.png)
