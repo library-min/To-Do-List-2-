@@ -293,6 +293,7 @@ function TodoApp() {
 }
 
 export default function App() {
+<<<<<<< HEAD
   try {
     const { login, register, loading } = useAuth();
     const { toasts, removeToast } = useToast();
@@ -332,4 +333,27 @@ export default function App() {
       </div>
     );
   }
+=======
+  const { login, register, loading } = useAuth();
+  const { toasts, removeToast } = useToast();
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-app text-app">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <Routes>
+        <Route path="/login" element={<Login onLogin={login} />} />
+        <Route path="/register" element={<Register onRegister={register} />} />
+        <Route path="/" element={<TodoApp />} />
+      </Routes>
+      <ToastContainer toasts={toasts} removeToast={removeToast} />
+    </>
+  );
+>>>>>>> 3aa2f09ae87276ca2317e7294239b1ea6bda4c8e
 }
